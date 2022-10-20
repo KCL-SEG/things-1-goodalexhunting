@@ -1,6 +1,6 @@
 from django.db import models
-from django.db.models import MinValueValidator
-from django.db.models import MaxValueValidator
+from django.core.validators import MinValueValidator
+from django.core.validators  import MaxValueValidator
 
 # Create your models here.
 class Thing(django.db.models.Model):
